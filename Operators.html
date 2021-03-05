@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>My Tutorial</title>
+    <meta name="description" content="tutorial on java script operators">
+    <!--Linking the stylesheets-->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!--Linking the javascript-->
+    <script type="text/javascript" src="js/script.js"></script>
+  </head>
+  <body>
+    <!--Header of the webpage-->
+    <header id="header">
+      <div class="page-container">
+        <h2 class = "site-name"><a href="#"> +-JS*/</a></h2>
+        <!--navigation menu in the website-->
+        <nav class = "menu">
+          <h3 class="hidden">Main navigation</h3>
+          <ul>
+            <li><a href="Operators.html">Home</a></li>
+            <li><a href="excerscises.html">Excerscises</a></li>
+            <li><a href="Contactus.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!--Class for the page container that sets the maximum width of the page-->
+    <div class = "page-container">
+    <!--Main section of the webpage-->
+      <main id="main">
+        <h1>JS Operators</h1>
+        <h2>Arthematic Operations</h2>
+        <img class = "image-right" src="images/arthematicopertors.png" alt ="Image of an arthematic operation" height ="500" width = "550"/>
+        <p>It can be done on numbers or variables storing values.The following is a table of Arthematic operators in javascript.When we are writing an 
+           expression we have to be careful about the BEDMAS rule.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Operators</th>
+              <th>Description</th>
+              <th>Example</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>+</td>
+              <td>Addition</td>
+              <td><p class ="example">var sum = 10 + 20;  value of sum is 30.
+                                      var total = var item1 + var item2;</p></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td>Substraction</td>
+              <td><p class = "example">var profit = 500 - 420;  value of profit is 80.
+                                       var total = var item1 - var item2;</p></td>
+            </tr>
+            <tr>
+              <td>*</td>
+              <td>Multiplication</td>
+              <td><p class = "example">var product = 60 * 20;  value of product is 1200.
+                                       var distance = var speed * var time;</p></td>
+            </tr>
+            <tr>
+              <td>/</td>
+              <td>Division</td>
+              <td><p class = "example">var division = 100 / 20;  value of division is 5.
+                                       var speed = var distance / var time;</p></td>
+            </tr>
+            <tr>
+              <td>%</td>
+              <td>Modulus(Remainder)</td>
+              <td><p class = "example">var prime_number = 13 % 2;  value of prime_number is 1.
+                                       var check_prime = var num % var divisor;</p></td>
+            </tr>
+            <tr>
+              <td>**</td>
+              <td>Exponential</td>
+              <td><p class = "example">var square = 10 ** 2;  value of square is 100.
+                                       var exponent = var m ** var n</p></td>
+            </tr>
+            <tr>
+              <td>++</td>
+              <td>Increment</td>
+              <td><p class = "example">var i++;  value of i is increased by 1.</p></td>
+            </tr>
+            <tr>
+              <td>--</td>
+              <td>Decrement</td>
+              <td><p class= "example">var j--;  value of j is decreased by 1.</p></td>
+              </tr>
+            </tbody>
+          </table>
+        <!--Arthematic operators section -->
+        <section class= "clear-float">
+          <h2>Assignment Operators</h2>
+          <img class = "image-left" src="images/assignmentoperator.png" alt="Image of Assignment operation explained" height= "325" width= "450"/>
+          <p>It is used to assign values to the variable. Here is a list of other assignment operators. </p>
+          <dl>
+            <dt>+=  Addition Assignment</dt>
+            <dd> x += y ======>  x = x + y</dd>
+            <dt>-=  Substraction Assignment</dt>
+            <dd> x -= y ======>  x = x - y</dd>
+            <dt>*=  Product Assignment</dt>
+            <dd> x *= y ======>  x = x * y</dd>
+            <dt>/=  Division Assignment</dt>
+            <dd> x /= y ======>  x = x / y</dd>
+            <dt>%=  Modulus Assignment</dt>
+            <dd> x %= y ======>  x = x % y</dd>
+            <dt>**= Exponential Assignment</dt>
+            <dd> x **= y ======>  x = x ** y</dd>
+          </dl>
+          <p class ="example">Examples:
+                       var x = 10;  =====>X is assigned the value 10
+                       var y = -14;
+                       string greeting = "Hello!!"    ======>greeting is assigned a value Hello!!
+                       var count+=1;                  ======>The value of count is added by 1
+          </p>
+        </section>
+        <!--Favourite locations section-->
+        <section class = "clear-float">
+          <h2>String Operators</h2>
+          <p>The addition operator + can be used to concatenate strings and += operator can be used to assign and concatenate a string.</p>
+          <p class = "example">For Example: 
+                               var greeting = "Hello" + "Alby Baby"; =====>The value in variable greeting is "Hello Alby Baby"
+                               greeting += " Have a nice day!!";  ======>Now the value changes to "Hello Alby Baby Have a nice day!!"
+          </p>
+          <p>When used on strings, the + operator is called the concatenation operator.</p>
+          <h3>Adding Strings and Numbers</h3>
+          <p>One of the fascinating thing about Javascript is you can add numers and strings .If you add number to a string JS converts the numbers to strings</p>
+          <p class="example">Example: 
+                                      var y = "8" + 8; =======> Value of y = 88
+                                      var steps = "step" + 1; ========>Steps = step1
+          </p>
+        </section>
+        <section>
+          <h2>Comparison Operators</h2>
+          <img class ="image-right" src = "images/comparisonoperator.png" alt="Table of the comparisonoperator with examples" width = "500" height="300"/>
+          <p>Comparison operators are used to compare the variables and values and gives the result true or false and the result is used for the logic of the program</p>
+          <p>The comparison operator are used in the conditional statements to compare the values and to do something with the value they got .</p>
+          <p class = "example">Example: var x = 50;
+                                        if(x>=30){  alert("You pass the benchmark");}
+                                        if(username==="alby"){alert("Welcome Alby!");}
+          </p>
+          <h3>Comparing Different Types</h3>
+          <p>In javascript,comparing differnt types may be a little different.It doesn't throw an error. When comparing a string with a number js will 
+             convert the number to a string at the time of comparison.If we are comparing with an empty string it returns 0.while with a non numeric string it 
+             converts to NaN which is always false.This NaN has many uses in js</p>
+          <p class = "example">Example: 2 > "12" ========> false
+                                        "2" >"12"=========>true (because both are strings and alphabetically 2 is greater than 1)
+                                        34 =="alby"=========>false(because "alby" is converted to NaN)
+          </p>
+        </section>
+        <section>
+          <h2>Logical Operators</h2>
+          <p>It is used to determine the logic between variables and values</p>
+          <img class ="align" src="images/logicaloperators.png" alt="The image of logical operators" width = "500" height ="450"/>
+          <p> || ====> or
+              && ====> and
+              ! =====> not are the logical operators.
+          </p>
+          <h3>Conditional Ternary operator</h3>
+          <p>JavaScript also contains a conditional operator that assigns a value to a variable based on some condition.</p>
+          <p class = "example">Syntax
+            variablename = (condition) ? value1:value2 </p>
+        </section>
+        <section>
+          <p>Do you want to try out the excerscise</p>
+          <form>
+            <div id = "Tryout" >
+              <button type="submit" id="tryout" name="submit">Try Out The Excerscise </button>
+            </div>
+          </form>
+        </section>
+      </main>
+    </div>
+    <!--Footer Section -->
+    <footer id="footer">
+      <div class = "page-container">
+        <h3>Reference</h3>
+        <p><a href = "https://www.w3schools.com/js/js_operators.asp">W3Schools.com</a></p>
+        <p>My JS Tutorial &copy; Alby Baby 2021 </p>
+      </div> 
+    </footer>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

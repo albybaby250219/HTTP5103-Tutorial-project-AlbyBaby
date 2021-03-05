@@ -1,0 +1,223 @@
+/*CSS STYLES FOR MY TRAVEL BLOG WEBSITE!!!!!!!!!!
+/*******************
+*MAIN SECTIONS
+*1.HTML
+*2.BODY
+*3.HEADINGS
+*4.NAVIGATION
+*5.LINK STYLES
+*6.HEADER
+*7.MAIN
+*8.FOOTER
+*********************/
+
+/* 1.  HTML */
+
+html {
+  box-sizing:border-box; /* allow width and height to include everything up until the border */
+}
+*, *::before, *::after {
+  box-sizing:inherit;
+}
+
+/* 2.  BODY */
+
+body {
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:15px;
+  line-height:1;
+  margin:0;
+  background-image: url("https://wallpaperaccess.com/full/137713.jpg");
+  color: #ffffff;
+}
+
+/* 3.  HEADINGS */
+
+h1, h2, h3 {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+h1 {
+  margin-top:0;
+  text-align: center;
+  text-shadow: 0px 5px 10px #000;
+}
+
+/* 4.  NAVIGATION */
+
+nav{
+  padding: 0px;
+  margin:0px;
+  float:right;
+}
+
+/* 5.  LINK STYLES */
+
+a, a:link {
+  color:#ffffff;
+  text-decoration: none;
+}
+a:visited {
+  color:#cccccc;
+}
+a:hover {
+  color:#000;
+}
+a:active {
+  color:#c1c1eb;
+}
+/* HIDDEN  CLASS */
+/* Hidden class is used for the things that are hidden
+ * in the screen but is available to the screen readers.*/
+.hidden {
+  position:absolute;
+  left:-10000px;
+  width:1px;
+  height:1px;
+}
+/* PAGE CONTAINER */
+/* Used to set the maximum width for the contents of a web page*/
+.page-container {
+  max-width:1200px;
+  margin:0 auto;
+}
+
+/* 6.  HEADER */
+
+#header {
+  border-bottom: 2px solid #c1c1eb;
+  margin-bottom: 0px;
+  padding-bottom: 15px;
+  padding-top:15px;
+  float: left;
+  width: 100%;
+}
+/* > is used to mention the child class of a main heading*/
+#header > .page-container {
+  padding:0px;
+}
+.site-name{
+  float: left;
+}
+.site-name{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  color:#cccccc;
+  position: relative;
+  text-shadow: 5px 5px 10px #000;
+}
+#header ul{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  list-style-type:none;
+}
+.menu{
+  display: inline-block;
+  vertical-align: middle;
+}
+.menu li{
+  margin-right: 30px;
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: top;
+  font-weight: bold;
+  text-shadow: 0px 1px 5px #000;
+}
+
+/* 7.  MAIN */
+
+#main {
+  width:96%;
+  display:inline-block;
+  margin-left:2%;
+  margin-right:2%;
+  margin-bottom:15px;
+  margin-top: 15px;
+  padding:15px;
+  font-size: 18px;
+  background-color: #486688; 
+  border-style: double groove;
+  border-color: #c6c6ce;
+  border-width: 2px;
+  box-shadow: 2px 2px 10px #000;
+}
+#main table{
+  border-style: double groove;
+  border-color:#c6c6ce;
+  border-width:2px;
+  text-align: center;
+  font-size: 15px;
+}
+#main dl dd{
+  margin-bottom:10px;
+}
+.example{
+  white-space: pre-line;
+  background-color:#1C3E64;
+  line-height: 30px;
+  text-align: left;
+  font-size: 15px;
+}
+/* Float the image to the left */
+.image-left{
+  float:left;
+  margin-right:15px;
+  margin-bottom: 15px;
+}
+/* Clear the float*/
+/* don't let floating elements appear on either side */
+.clear-float{
+  clear:both;
+}
+/* Float the image to the right */
+.image-right{
+  float:right;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+.align{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+/* FORM STYLES */
+.contact-form{
+  text-align:center;
+  color: #c1c1eb;
+  margin-top: 20px;
+  max-width: 400px;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 1cm;
+  border:solid;
+  background-color: #57728b;
+}
+/*Space between the  form fields */
+.line-space{
+  margin-top: 15px;
+}
+/*Style for the submit button */
+#submit{
+  border-style: solid;
+  border-color: #c1c1eb;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* 8.  FOOTER */
+
+#footer {
+  border-top:solid #c1c1eb;
+  clear:both; 
+  text-align:right;
+  color:#cccccc;
+}
+#footer > .page-container {
+  padding:0.5em;
+}
+  
+    
+  
